@@ -11,3 +11,9 @@ proficient. Simultaneously, there are multiple iterations of the design are nece
 website appealing to the customers. To manage the situation, there is a need of a powerful tool
 that ought to speed-up the front-end development, coding, testing the layout quicker and more
 efficient.
+
+**Aim and objective**
+
+The aim of this project is to build a deep learning pipeline that will convert the visual designs
+into intermediatory code that enables rendering components ready to be scaled at the
+industrialization level.
