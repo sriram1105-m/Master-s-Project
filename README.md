@@ -17,3 +17,9 @@ efficient.
 The aim of this project is to build a deep learning pipeline that will convert the visual designs
 into intermediatory code that enables rendering components ready to be scaled at the
 industrialization level.
+
+**Architectures Used**
+
+![image](https://user-images.githubusercontent.com/75327547/142779718-f0da43c0-47a2-4fe0-ac2a-49c2acf14094.png)
+
+Inception-ResNet architecture is nothing but the use of residual connections in the inception architecture. Inception ResNetV2 is a type of convolutional neural network that is trained on more than a million images from the ImageNet Dataset. The network is 164 layers deep and can classify images into 1000 classes. This network has an input size of 299x299 and the output is a list of estimated class probabilities. 
