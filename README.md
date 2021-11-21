@@ -23,3 +23,16 @@ industrialization level.
 ![image](https://user-images.githubusercontent.com/75327547/142779718-f0da43c0-47a2-4fe0-ac2a-49c2acf14094.png)
 
 Inception-ResNet architecture is nothing but the use of residual connections in the inception architecture. Inception ResNetV2 is a type of convolutional neural network that is trained on more than a million images from the ImageNet Dataset. The network is 164 layers deep and can classify images into 1000 classes. This network has an input size of 299x299 and the output is a list of estimated class probabilities. 
+
+**Encoder-Decoder Model**
+
+The conventional deep neural networks are amazing AI models that accomplish great execution on troublesome issues like speech recognition and visual object recognition. But they can only be used for large amount of labelled data where the inputs and the targets can be reasonably encoded with vectors of fixed dimensionality. They cannot be used to map sequence to sequence learning. In order to solve the problem of sequence-to-sequence learning, encoder-decoder model was developed.
+
+![image](https://user-images.githubusercontent.com/75327547/142779798-5f17efa2-5d32-459c-ba6e-e30839df8a60.png)
+
+The internal structure of the Encoder-Decoder is shown below:
+
+![image](https://user-images.githubusercontent.com/75327547/142779824-ebf62738-ad57-4ae2-abe4-615c18aebd92.png)
+
+
+
