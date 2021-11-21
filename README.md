@@ -34,5 +34,28 @@ The internal structure of the Encoder-Decoder is shown below:
 
 ![image](https://user-images.githubusercontent.com/75327547/142779824-ebf62738-ad57-4ae2-abe4-615c18aebd92.png)
 
+**The Encoder Block**
+
+The Encoder part is a LSTM cell. It is taken care of in the input sequence over the long run and it attempts to epitomize all its data and store it in the final internal states ht (hidden state) and ct (cell state). The internal states are then passed on to the decoder part, which it will use to attempt to create target sequence. The outputs at each time step are discarded in the encoder part 
+
+![image](https://user-images.githubusercontent.com/75327547/142779848-90ff9641-6de1-4657-9918-145b8ee3b61f.png)
+
+**The Decoder Block**
+
+So, in the wake of pursuing the entire information sequence, the encoder passes the inside states to the decoder and this is the place where the prediction of the output sequence begins. The Decoder block of the Encoder-Decoder model is shown below.
+
+![image](https://user-images.githubusercontent.com/75327547/142779863-5558a638-4400-4711-b9f5-5a56c229e72e.png)
+
+**Proposed AI Pipeline architecture**
+
+![image](https://user-images.githubusercontent.com/75327547/142779884-0b233101-c10a-42d2-90fe-3b4e4a5803c3.png)
+
+**References**
+
+1. https://arxiv.org/pdf/1705.07962.pdf
+
+2. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8720784
+
+3. https://machinelearningmastery.com/deep-learning-caption-generation-models/
 
 
